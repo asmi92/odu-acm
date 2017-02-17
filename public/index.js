@@ -111,6 +111,7 @@ app.controller("viewRaffleCtrl", function($scope,$window,$http) {
 };
 $scope.getRaffles();
 
+
 $scope.stopRaffle = function(raffleId){
     $scope.pickUpWinner(raffleId);
     var disableStopVar = 'stop'+raffleId;
@@ -122,6 +123,7 @@ $scope.stopRaffle = function(raffleId){
 $scope.edit = function(){
 window.location.href = "rules.html";
 }
+
 
 });
     
